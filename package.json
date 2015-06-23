@@ -23,5 +23,8 @@
     "babel-runtime": "latest",
     "chai": "latest",
     "lab": "latest"
+  },
+  "dependencies": {
+    "yargs": "^3.12.0"
   }
 }
