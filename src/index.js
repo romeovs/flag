@@ -10,7 +10,7 @@ const one = function (name) {
     || false;
 };
 
-export default function (names) {
+export default function (...names) {
   return names
     .map(one)
     .reduce((a, b) => a || b, false);
