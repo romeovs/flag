@@ -7,7 +7,7 @@ const one = function (name) {
     || process.env[caps] === '1'
     || process.env[name] === 'true'
     || process.env[caps] === 'true'
-    || false;
+    ;
 };
 
 export default function (...names) {
