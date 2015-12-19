@@ -5,6 +5,12 @@ Quickly check if a flag is set.
 var flag = require('flag');
 var watching = flag('watch');
 ```
+## Installation
+```
+npm install --save has-flag
+```
+
+## Usage
 
 `flag` checks following methods to set the flag:
 ```sh
