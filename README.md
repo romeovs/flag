@@ -2,17 +2,17 @@
 
 Quickly check if a flag is set.
 ```js
-var flag = require('flag');
-var watching = flag('watch');
+var vlag = require('vlag');
+var watching = vlag('watch');
 ```
 ## Installation
 ```
-npm install --save has-flag
+npm install --save vlag
 ```
 
 ## Usage
 
-`flag` checks following methods to set the flag:
+`vlag` checks following methods to set the flag:
 ```sh
 node script.js --watch      # via command line argument
 watch=1 node script.js      # via environment variable, mixed case
