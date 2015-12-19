@@ -1,4 +1,4 @@
-# flag
+# vlag
 
 Quickly check if a flag is set.
 ```js
